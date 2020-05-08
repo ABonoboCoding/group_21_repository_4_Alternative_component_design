@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/* navigation menu */
+
+.navbar {
+  overflow: hidden;
+  background-color: lightgrey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px auto;
+}
+
+.navbar a:hover {
+  background: grey;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: grey;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+
+/* card css */
+/*.card_spacing {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+*/
+
+.hpcard {
+  display:inline-block;
+  box-shadow: 0 4px 8px 0 white;
+  transition: 0.3s;
+  background-color: white;
+  /*width: 10%; change size of card directly*/
+  border-radius: 10px;
+  border-style: solid;
+  border-color: lightgrey;
+  color: black;
+  width: 80%;
+
+}
+
+img {
+border-radius: 5px 5px 0 0;
+width:95%;
+height:150px;
+}
+
+.hpcard:hover {
+  box-shadow: 0 8px 16px 0 lightblue;
+}
+
+
+.hpcontainer {
+  /*padding: 4px 16px;*/
+  color: black;
+}
+
+.txt_center {
+  text-align: center
+}
+
+/* within a recipe */
+
+.recipe_img {
+  border-radius: 5px 5px 0 0;
+  width:100%;
+  height:150px;
+}
+
+.recipe_button {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button_back {
+  border-radius: 12px;
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
+  border-color: lightgrey;
+  border-width: 2px;
+}
+
+.button_next {
+  border-radius: 12px;
+  position: absolute;
+  bottom: 10%;
+  right: 2%;
+  border-color: lightgrey;
+  border-width: 2px;
+
+}
+
+.button_demo_p {
+  border-radius: 12px;
+  position:fixed;
+  border-color: lightgrey;
+  border-width: 2px;
+  left:10%;
+}
+
+.button_demo_g {
+  border-radius: 12px;
+  position: fixed;
+  border-color: lightgrey;
+  border-width: 2px;
+  left: 43%;
+
+}
+
+.button_demo_v {
+  border-radius: 12px;
+  position: fixed;
+  border-color: lightgrey;
+  border-width: 2px;
+  right:10%;
+
+}
